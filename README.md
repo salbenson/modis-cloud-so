@@ -1,5 +1,5 @@
 # modis-cloud-so
-Code for "Natural marine cloud brightening in the Southern Ocean"
+@@Code for "Natural marine cloud brightening in the Southern Ocean"@@
 
 Step 1:  Aquire MOD03 and MOD06_L2 data.
 
