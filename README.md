@@ -1,7 +1,7 @@
 # modis-cloud-so
-```diff
-@@Code for "Natural marine cloud brightening in the Southern Ocean"@@
-```
+
+Code for "Natural marine cloud brightening in the Southern Ocean"
+
 Step 1:  Aquire MOD03 and MOD06_L2 data.
 
 MODIS Characterization Support Team (MCST), 2017. MODIS Geolocation Fields Product. NASA MODIS Adaptive Processing System, Goddard Space Flight Center, USA: http://dx.doi.org/10.5067/MODIS/MOD03.061
