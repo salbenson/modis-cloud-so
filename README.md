@@ -14,7 +14,14 @@ Step 2:  Run the IDL code read_mod06_clouds_sb.pro
 This program produces netcdf files of the modis data within each gridbox of the modis granule.  
 This is the example of a filename with the name: MYD06_L2.A2018027.1320.061.2018030175749_lat_-62_lon_16_histo.cdf
 
-Step 3:  Create statistics using these netcdf histogram files.
+Step 3:  Append chlor-a and ceres sw albedo
 
+Step 4:  Put the histogram netcdf files for each month in one big monthly historgram file.
+
+Run the IDL code plot_modis_histograms.pro
+
+Step 5:  Create monthly mean values.
+
+Run the IDL code plot_modis_hist_daily_monthly_means.pro
 
 
