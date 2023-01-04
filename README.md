@@ -25,7 +25,7 @@ Run the IDL code *match_ocean_histo.pro*
 
 **Step 4:  Append CERES sw albedo to each histogram file.**
 
-
+Run the IDL code *read_ceres_ssf.pro*
 
 Step 5:  Put the histogram netcdf files for each month in one big monthly historgram file.
 
