@@ -44,5 +44,5 @@ Run the IDL code *plot_modis_hist_daily_monthly_means.pro*
 
 **Step 7:  Create other plots.**
 
-Run plot_modis_hist_full_dataset.pro
+Run the IDL code *plot_modis_hist_full_dataset.pro*
 
