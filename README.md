@@ -2,7 +2,7 @@
 
 Code for "Natural marine cloud brightening in the Southern Ocean"
 
-**Step 1: Aquire MOD03 and MOD06_L2 MODIS data, MODIS Ocean Color Level-3 chlor-a, and CERES SSF Edition4A **
+**Step 1: Aquire MOD03 and MOD06_L2 MODIS data, MODIS Ocean Color Level-3 mapped chlor-a, and CERES SSF Edition4A**
 
 MODIS Characterization Support Team (MCST), 2017. MODIS Geolocation Fields Product. NASA MODIS Adaptive Processing System, Goddard Space Flight Center, USA: http://dx.doi.org/10.5067/MODIS/MOD03.061
 https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD03
@@ -32,15 +32,17 @@ Run the IDL code *match_ocean_histo.pro*
 
 Run the IDL code *read_ceres_ssf.pro*
 
-Step 5:  Put the histogram netcdf files for each month in one big monthly historgram file.
+**Step 5:  Accumulate all the histogram files for each month into one big monthly historgram file.**
 
-Run the IDL code plot_modis_histograms.pro
+This makes the data easier to work with because IDL doesn't have to open and close so many files.
+Run the IDL code *plot_modis_histograms.pro*
+This code normalizes the sw albedo to 45 degree solar zenith angle
 
-Step 6:  Create monthly mean values.
+**Step 6:  Create monthly mean values.**
 
-Run the IDL code plot_modis_hist_daily_monthly_means.pro
+Run the IDL code *plot_modis_hist_daily_monthly_means.pro*
 
-Step 7:  Create other plots.
+**Step 7:  Create other plots.**
 
 Run plot_modis_hist_full_dataset.pro
 
