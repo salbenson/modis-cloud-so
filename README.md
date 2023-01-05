@@ -1,6 +1,7 @@
 # modis-cloud-so
 
-Code for "Natural marine cloud brightening in the Southern Ocean"
+Code for:
+Mace, G. G., Benson, S., Humphries, R., Gombert P. M., Sterner, E.: Natural marine cloud brightening in the Southern Ocean, Atmospheric Chemistry and Physics, Accepted 22 Nov 2022
 
 **Step 1: Aquire MOD03 and MOD06_L2 MODIS data, MODIS Ocean Color Level-3 mapped chlor-a, and CERES SSF Edition4A**
 
