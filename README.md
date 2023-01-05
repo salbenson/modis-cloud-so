@@ -3,6 +3,8 @@
 Code for:
 Mace, G. G., Benson, S., Humphries, R., Gombert P. M., Sterner, E.: Natural marine cloud brightening in the Southern Ocean, Atmospheric Chemistry and Physics, Accepted 22 Nov 2022
 
+Please contact Sally Benson at sally.benson@utah.edu with any questions about the code.
+
 **Step 1: Aquire MOD03 and MOD06_L2 MODIS data, MODIS Ocean Color Level-3 mapped chlor-a, and CERES SSF Edition4A**
 
 MODIS Characterization Support Team (MCST), 2017. MODIS Geolocation Fields Product. NASA MODIS Adaptive Processing System, Goddard Space Flight Center, USA: http://dx.doi.org/10.5067/MODIS/MOD03.061
