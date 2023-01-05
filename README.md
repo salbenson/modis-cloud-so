@@ -37,7 +37,7 @@ Run the IDL code *read_ceres_ssf.pro*
 
 This makes the data easier to work with because IDL doesn't have to open and close so many files.
 Run the IDL code *plot_modis_histograms.pro*
-This code normalizes the sw albedo to 45 degree solar zenith angle
+This code normalizes the short wave albedo to 45 degree solar zenith angle
 
 **Step 6:  Create monthly mean values.**
 
