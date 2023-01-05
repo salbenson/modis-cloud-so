@@ -22,7 +22,7 @@ NASA/LARC/SD/ASDC. (2014). CERES Single Scanner Footprint (SSF) TOA/Surface Flux
 
 **Step 2: Create netcdf files of the modis data within each 1x2 degree gridbox of the modis granule.**
 
-These netcdf files will be called histogram files.  Run the IDL code *read_mod06_clouds_sb.pro*
+These netcdf files will be called histogram files.  Run the IDL code *read_mod06_clouds_sb_test.pro*
 Output filename example: MYD06_L2.A2018027.1320.061.2018030175749_lat_-62_lon_16_histo.cdf
 
 **Step 3:  Append chlor-a variable to each histogram file.**
